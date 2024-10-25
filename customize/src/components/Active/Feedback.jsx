@@ -6,7 +6,7 @@ import Styles from '../Styles'
 function Feedback() {
   return (
     <Stack direction={'row'} spacing={2.5}>
-            <Button variant='contained' sx={{...Styles.FeedbackButton , ...Styles.BodyStyle , color:'#FFFFFF'}}>
+            <Button variant='contained' sx={{...Styles.FeedbackButton , ...Styles.BodyStyle , color:'#FFFFFF' , whiteSpace:'nowrap'}}>
                 Add feedback
             </Button>
             <IconButton sx={{bgcolor:'#eefbf6',}}>
