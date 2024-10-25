@@ -1,4 +1,6 @@
 import { BorderAll, WidthFull } from "@mui/icons-material";
+import '@fontsource/poppins';
+import '@fontsource/poppins/600.css';
 
 const Styles = {
     HeaderStyle :{
